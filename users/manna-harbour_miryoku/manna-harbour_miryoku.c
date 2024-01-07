@@ -208,6 +208,38 @@ MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
 };
 
+// set layer rgb colors
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+        case BASE:
+            rgblight_sethsv_noeeprom(HSV_AZURE);
+            break;
+        case NAV:
+            rgblight_sethsv_noeeprom(HSV_GREEN);
+            break;
+        case NUM:
+            rgblight_sethsv_noeeprom(HSV_ORANGE);
+            break;
+        case SYM:
+            rgblight_sethsv_noeeprom(HSV_MAGENTA);
+            break;
+        case FUN:
+            rgblight_sethsv_noeeprom(HSV_GOLD);
+            break;
+        case EXTRA:
+            rgblight_sethsv_noeeprom(HSV_RED);
+            break;
+        case MEDIA:
+            rgblight_sethsv_noeeprom(HSV_YELLOW);
+            break;
+
+        // add more cases for additional layers
+    }
+    return state;
+}
+
+
 
 // shift functions
 
