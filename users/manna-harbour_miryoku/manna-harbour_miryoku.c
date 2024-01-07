@@ -213,7 +213,7 @@ MIRYOKU_LAYER_LIST
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
         case U_BASE:
-            rgblight_sethsv_noeeprom(HSV_AZURE);
+            rgblight_sethsv_noeeprom(HSV_BLUE);
             break;
         case U_NAV:
             rgblight_sethsv_noeeprom(HSV_GREEN);
