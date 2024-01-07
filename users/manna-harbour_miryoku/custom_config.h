@@ -30,6 +30,12 @@ KC_A,              KC_S,              KC_D,              KC_F,              KC_G
 KC_Z,              KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLSH,           \
 U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
 
+#define MIRYOKU_LAYER_MEDIA \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              RGB_TOG,           RGB_MOD,           RGB_HUI,           RGB_SAI,           RGB_VAI,           \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              U_NU,              KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,           \
+U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA,              OU_AUTO,           U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           RGB_SPI,           U_NP
+
 
 
 #ifdef RGB_MATRIX_ENABLE
@@ -53,7 +59,7 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U
 //#    define ENABLE_RGB_MATRIX_ALPHAS_MODS
 //#    define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
 //#    define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
-//#    define ENABLE_RGB_MATRIX_BREATHING
+#    define ENABLE_RGB_MATRIX_BREATHING
 //#    define ENABLE_RGB_MATRIX_BAND_SAT
 //#    define ENABLE_RGB_MATRIX_BAND_VAL
 //#    define ENABLE_RGB_MATRIX_BAND_PINWHEEL_SAT
@@ -73,7 +79,7 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U
 //#    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 //#    define ENABLE_RGB_MATRIX_RAINDROPS
 //#    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
-//#    define ENABLE_RGB_MATRIX_HUE_BREATHING
+#    define ENABLE_RGB_MATRIX_HUE_BREATHING
 //#    define ENABLE_RGB_MATRIX_HUE_PENDULUM
 //#    define ENABLE_RGB_MATRIX_HUE_WAVE
 //#    define ENABLE_RGB_MATRIX_PIXEL_RAIN
@@ -86,13 +92,13 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U
 //#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
 #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE
 #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE
-#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE
+//#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE
 //#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_CROSS
 //#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTICROSS
-#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
-#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
-#    define ENABLE_RGB_MATRIX_SPLASH
-#    define ENABLE_RGB_MATRIX_MULTISPLASH
-#    define ENABLE_RGB_MATRIX_SOLID_SPLASH
-#    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+//#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
+//#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
+//#    define ENABLE_RGB_MATRIX_SPLASH
+//#    define ENABLE_RGB_MATRIX_MULTISPLASH
+//#    define ENABLE_RGB_MATRIX_SOLID_SPLASH
+//#    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 #endif
