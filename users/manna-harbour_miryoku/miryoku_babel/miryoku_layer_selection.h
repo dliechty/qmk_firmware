@@ -7,6 +7,7 @@
 #pragma once
 
 #include "miryoku_layer_alternatives.h"
+#include "dliechty_layer_alternatives.h"
 
 #if !defined(MIRYOKU_LAYER_BASE)
   #if defined (MIRYOKU_LAYERS_FLIP)

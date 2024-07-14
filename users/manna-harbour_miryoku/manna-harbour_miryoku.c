@@ -208,8 +208,8 @@ MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
 };
 
+#ifdef RGB_MATRIX_ENABLE
 // set layer rgb colors
-
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
         case U_BASE:
@@ -238,6 +238,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     }
     return state;
 }
+#endif
 
 
 
