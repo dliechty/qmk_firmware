@@ -45,8 +45,8 @@ U_NP,              U_NP,              U_NP,              U_NA,              U_NA
 #define DLIECHTY_ALTERNATIVES_MEDIA \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,          U_NA,         \
 U_NA,              TD(U_TD_BOOT),     TD(U_TD_U_GAME),   TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              RGB_TOG,           RGB_MOD,           RGB_HUI,           RGB_SAI,           RGB_VAI,       U_NA,         \
-U_NA,              KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              U_NU,              KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,       U_NA,         \
-U_NA,              U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA,              OU_AUTO,           U_NU,              U_NU,              U_NU,              U_NU,          U_NA,         \
+U_NA,              KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              U_NU,              KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,       RGB_SPI,      \
+U_NA,              U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA,              OU_AUTO,           U_NU,              U_NU,              U_NU,              U_NU,          RGB_SPD,      \
 U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP,          U_NP
 
 #define DLIECHTY_ALTERNATIVES_NUM \

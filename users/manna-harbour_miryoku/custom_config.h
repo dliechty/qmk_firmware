@@ -24,7 +24,7 @@
 #    define RGB_MATRIX_VAL_STEP 8
 #    define RGB_MATRIX_SPD_STEP 10
 
-#    define RBG_MATRIX_DEFAULT_SPD 255
+#    define RBG_MATRIX_DEFAULT_SPD 40
 
 /* Enable the animations you want/need.  You may need to enable only a small number of these because       *
  * they take up a lot of space.  Enable and confirm that you can still successfully compile your firmware. */
