@@ -31,8 +31,8 @@ U_NP,              U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U
 #define DLIECHTY_ALTERNATIVES_NAV \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            U_NA,         \
 U_NA,              TD(U_TD_BOOT),     TD(U_TD_U_GAME),   TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,           U_NA,         \
-U_NA,              KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              CW_TOGG,           KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,         U_NA,         \
-U_NA,              U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              KC_INS,            KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,          U_NA,         \
+KC_LSFT,           KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              CW_TOGG,           KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,         U_NA,         \
+KC_LCTL,           U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              KC_INS,            KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,          U_NA,         \
 U_NP,              U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP,            U_NP
 
 #define DLIECHTY_ALTERNATIVES_MOUSE \
