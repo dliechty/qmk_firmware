@@ -50,17 +50,23 @@ MIRYOKU_LAYER_LIST
 };
 
 #ifdef RGB_MATRIX_ENABLE
+
+void keyboard_post_init_user(void) {
+  rgblight_enable_noeeprom();
+  rgblight_sethsv_noeeprom(HSV_TEAL);
+}
+
 // set layer rgb colors
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
         case U_BASE:
-            rgblight_sethsv_noeeprom(HSV_CORAL);
+            rgblight_sethsv_noeeprom(HSV_TEAL);
             break;
         case U_NAV:
             rgblight_sethsv_noeeprom(HSV_GREEN);
             break;
         case U_NUM:
-            rgblight_sethsv_noeeprom(HSV_RED);
+            rgblight_sethsv_noeeprom(HSV_PINK);
             break;
         case U_SYM:
             rgblight_sethsv_noeeprom(HSV_BLUE);
@@ -75,7 +81,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
             rgblight_sethsv_noeeprom(HSV_YELLOW);
             break;
         case U_GAME:
-            rgblight_sethsv_noeeprom(HSV_PINK);
+            rgblight_sethsv_noeeprom(HSV_RED);
             break;
         case U_EXTRA:
             rgblight_sethsv_noeeprom(HSV_TURQUOISE);
