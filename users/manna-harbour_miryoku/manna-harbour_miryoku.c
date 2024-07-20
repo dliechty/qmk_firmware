@@ -56,41 +56,6 @@ void keyboard_post_init_user(void) {
   rgblight_sethsv_noeeprom(HSV_TEAL);
 }
 
-// set layer rgb colors
-layer_state_t layer_state_set_user(layer_state_t state) {
-    switch (get_highest_layer(state)) {
-        case U_BASE:
-            rgblight_sethsv_noeeprom(HSV_TEAL);
-            break;
-        case U_NAV:
-            rgblight_sethsv_noeeprom(HSV_GREEN);
-            break;
-        case U_NUM:
-            rgblight_sethsv_noeeprom(HSV_PINK);
-            break;
-        case U_SYM:
-            rgblight_sethsv_noeeprom(HSV_BLUE);
-            break;
-        case U_MOUSE:
-            rgblight_sethsv_noeeprom(HSV_ORANGE);
-            break;
-        case U_FUN:
-            rgblight_sethsv_noeeprom(HSV_PURPLE);
-            break;
-        case U_MEDIA:
-            rgblight_sethsv_noeeprom(HSV_YELLOW);
-            break;
-        case U_GAME:
-            rgblight_sethsv_noeeprom(HSV_RED);
-            break;
-        case U_EXTRA:
-            rgblight_sethsv_noeeprom(HSV_TURQUOISE);
-            break;
-
-        // add more cases for additional layers
-    }
-    return state;
-}
 #endif
 
 
