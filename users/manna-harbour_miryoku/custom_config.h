@@ -82,3 +82,11 @@
 #    undef ENABLE_RGB_MATRIX_SOLID_SPLASH
 #    undef ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 #endif
+
+#ifndef NO_DEBUG
+#define NO_DEBUG
+#endif
+
+#if !defined(NO_PRINT) && !defined(CONOLE_ENABLE)
+#define NO_PRINT
+#endif
