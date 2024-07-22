@@ -68,4 +68,4 @@ KC_F13,            KC_F14,            KC_F15,            KC_F16,            KC_F
 U_NA,              KC_F12,            KC_F7,             KC_F8,             KC_F9,             KC_PSCR,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_GAME),   TD(U_TD_BOOT),   U_NA,         \
 U_NA,              KC_F11,            KC_F4,             KC_F5,             KC_F6,             KC_SCRL,           U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,         KC_PAGE_UP,   \
 U_NA,              KC_F10,            KC_F1,             KC_F2,             KC_F3,             KC_PAUS,           U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,         KC_PAGE_DOWN, \
-U_NP,              U_NP,              U_NP,              KC_APP,            KC_SPC,            KC_TAB,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP,            U_NP
+U_NP,              U_NP,              U_NP,              KC_APP,            KC_SPC,            KC_TAB,            KC_F13,            KC_F14,            U_NA,              U_NP,              U_NP,            U_NP
